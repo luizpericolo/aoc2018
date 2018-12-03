@@ -1,2 +1,2 @@
-# aoc2018
-Advent of Code 2018 puzzle solutions
+# Advent of Code 2018
+Advent of Code 2018 puzzle solutions in python
