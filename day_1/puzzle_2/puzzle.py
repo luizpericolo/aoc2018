@@ -4,12 +4,7 @@ def puzzle():
     acc = 0
     frequencies = set([acc])
 
-    input_file = open('../assets/input.txt', 'r')
-    lines = [line.strip() for line in input_file.readlines()]
-    lines = filter(lambda line: line, lines)
-
-    for line in cycle(lines):
-        # import pudb; pudb.set_trace()
+    for line in cycle(open('../assets/input.txt', 'r')):
         if line.strip():
             frequency = int(line.strip())
             acc += frequency
