@@ -22,3 +22,4 @@ Here are other examples:
     +7, +7, -2, -7, -4 first reaches 14 twice.
 
 What is the first frequency your device reaches twice?
+72330
